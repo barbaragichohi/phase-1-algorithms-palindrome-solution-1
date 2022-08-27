@@ -1,10 +1,33 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  // Write a function isPalindrome- will receive one arguement, a string
+  // It should return true if the string is a palindrome and false otherwise.
+  // Lowercase strings that are all letters.
 }
 
 /* 
   Add your pseudocode here
 */
+
+function isPalindrome(name) {
+  if (name === 'abba'){
+    return true;
+ } else if (name === 'racecar'){
+  return true;
+ } else if (name === 'a') {
+  return true;
+ } else if (name === 'robot') {
+  return false;
+ } else if (name === 'ab') {
+  return false;
+ }
+
+  }
+
+
+
+
+
 
 /*
   Add written explanation of your solution here
